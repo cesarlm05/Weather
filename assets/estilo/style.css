@@ -1,0 +1,55 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(33, 223, 182); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    rgb(33, 223, 182),
+    rgb(198, 236, 198)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    rgb(33, 223, 182),
+    rgb(198, 236, 198)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container {
+  width: 620px;
+  margin: 8% auto;
+  border: 2px solid gray;
+  background-color: #f7f7f7;
+  -webkit-box-shadow: 0 14px 8px -8px rgb(88, 88, 88);
+  -moz-box-shadow: 0 14px 8px -8px rgb(88, 88, 88);
+  box-shadow: 0 14px 8px -8px rgb(88, 88, 88);
+}
+#ciudad {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  width: 200px;
+  height: 35px;
+}
+.titulo {
+  text-align: center;
+  background-color: rgb(33, 223, 182);
+  color: white;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  height: 40px;
+  line-height: 40px;
+  color: grey;
+}
